@@ -62,3 +62,10 @@ DreamPortalTest/
 4. ChromeDriver:
     System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
+
+🙌 Author
+Nishmitha
+MCA Graduate | Aspiring QA Engineer
+
+
+
