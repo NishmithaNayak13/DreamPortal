@@ -1,0 +1,13 @@
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - DreamSummaryPage initialized.
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Fetching stat for: Good Dreams
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Stat found for Good Dreams: 6
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Verifying stat for 'Good Dreams'. Expected: 6, Found: 6 → PASS
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Fetching stat for: Bad Dreams
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Stat found for Bad Dreams: 4
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Verifying stat for 'Bad Dreams'. Expected: 4, Found: 4 → PASS
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Fetching stat for: Total Dreams
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Stat found for Total Dreams: 10
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Verifying stat for 'Total Dreams'. Expected: 10, Found: 10 → PASS
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Fetching stat for: Recurring Dreams
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Stat found for Recurring Dreams: 2
+2025-06-15 21:04:32 [main] INFO  com.dreamportal.DreamSummaryPage - Verifying stat for 'Recurring Dreams'. Expected: 2, Found: 2 → PASS
