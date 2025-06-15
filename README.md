@@ -14,17 +14,29 @@ Automated functional UI tests for the Dream Portal website using Selenium WebDri
 
 📁 Project Structure
 DreamPortalTest/
+
 ├── pom.xml
+
 ├── logs/
+
 │ └── automation.log ← Log output file
+
 ├── src/
+
 │ ├── main/java/com/dreamportal/
+
 │ │ ├── HomePage.java
+
 │ │ ├── DreamDiaryPage.java
+
 │ │ └── DreamSummaryPage.java ← With logging
+
 │ └── test/java/dreamportal/
+
 │ └── DreamPortalTest.java
+
 ├── resources/
+
 │ └── log4j.properties ← Log4j config file
 
 
@@ -52,6 +64,7 @@ DreamPortalTest/
 
 
 🙌 Author
+
 Nishmitha
 
 MCA Graduate | Aspiring QA Engineer
