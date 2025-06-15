@@ -9,22 +9,23 @@ Automated functional UI tests for the Dream Portal website using Selenium WebDri
 - Java
 - Selenium WebDriver
 - TestNG
+- Apache Log4j (for logging)
 - Maven
 
 📁 Project Structure
 DreamPortalTest/
 ├── pom.xml
+├── logs/
+│ └── automation.log ← Log output file
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── com/dreamportal/
+│ ├── main/java/com/dreamportal/
 │ │ ├── HomePage.java
 │ │ ├── DreamDiaryPage.java
-│ │ └── DreamSummaryPage.java
-│ └── test/
-│ └── java/
-│ └── dreamportal/
+│ │ └── DreamSummaryPage.java ← With logging
+│ └── test/java/dreamportal/
 │ └── DreamPortalTest.java
+├── resources/
+│ └── log4j.properties ← Log4j config file
 
 
 ✅ Test Scenarios Covered
@@ -36,7 +37,7 @@ DreamPortalTest/
 
 2. Dream Diary Page
 - Validate exactly 10 rows of dreams.
-- Ensure dream type is either **Good** or **Bad**.
+- Ensure dream type is either Good or Bad.
 - Check all table cells are filled.
 - Verify recurring dreams match expected values.
 
@@ -46,21 +47,8 @@ DreamPortalTest/
   - Bad Dreams = 4
   - Total Dreams = 10
   - Recurring Dreams = 2
+  - Log messages track every verification step
 
-## 🚀 How to Run the Tests
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/DreamPortalTest.git
-   cd DreamPortalTest
-2. Install dependencies:
-    mvn clean install
-
-3. Run tests:
-    mvn test
-   
-4. ChromeDriver:
-    System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 
 
 🙌 Author
