@@ -40,6 +40,7 @@ DreamPortalTest/
 │ └── log4j.properties ← Log4j config file
 
 
+
 ✅ Test Scenarios Covered
 
 1. Home Page Validation
@@ -59,7 +60,7 @@ DreamPortalTest/
   - Bad Dreams = 4
   - Total Dreams = 10
   - Recurring Dreams = 2
-  - Log messages track every verification step
+- Log messages track every verification step
 
 
 
